@@ -5,23 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>With You</title>
     <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f1217;
+        --card: #171b22;
+        --text: #eef2f7;
+        --muted: #a9b3c1;
+        --accent: #6aa9ff;
+        --border: #2a3140;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f6f7fb;
+          --card: #ffffff;
+          --text: #1a1f2b;
+          --muted: #5c6b82;
+          --accent: #2b6de9;
+          --border: #e2e7f0;
+        }
+      }
+      * { box-sizing: border-box; }
       body {
         margin: 0;
-        font-family: Arial, sans-serif;
-        background: #ffffff;
-        color: #1f1f1f;
-        padding: 32px 20px;
+        font-family: "Segoe UI", Roboto, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
       }
-      a {
-        color: #1a73e8;
+      .wrap {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 16px;
+      }
+      .card {
+        width: min(860px, 96vw);
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px 28px 24px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 12px;
+      }
+      .logo {
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #6aa9ff, #7b6dff);
+        display: grid;
+        place-items: center;
+        color: #ffffff;
+        font-weight: 700;
+      }
+      h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+      p {
+        margin: 8px 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 20px 0 12px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 16px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        text-decoration: none;
+        color: var(--text);
+        background: transparent;
+        font-weight: 600;
+      }
+      .btn.primary {
+        background: var(--accent);
+        color: #ffffff;
+        border-color: transparent;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .meta span {
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: rgba(0, 0, 0, 0.05);
       }
     </style>
   </head>
   <body>
-    <h1>With You</h1>
-    <p>App-ads.txt is hosted for AdMob verification.</p>
-    <p>
-      <a href="/app-ads.txt">Open app-ads.txt</a>
-    </p>
+    <div class="wrap">
+      <main class="card">
+        <div class="header">
+          <div class="logo">WY</div>
+          <div>
+            <h1>With You</h1>
+            <p>Developer site for the With You app.</p>
+          </div>
+        </div>
+        <p>
+          This site hosts the required <strong>app-ads.txt</strong> file for AdMob verification
+          and links to the privacy policy.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="/app-ads.txt">Open app-ads.txt</a>
+          <a class="btn" href="https://avinashnov08.github.io/withyou-privacy-policy/">
+            Privacy Policy
+          </a>
+        </div>
+        <div class="meta">
+          <span>AdMob Verified</span>
+          <span>App-ads.txt hosted at root</span>
+          <span>Last updated 2026-02-04</span>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
