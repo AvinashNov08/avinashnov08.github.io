@@ -58,6 +58,22 @@
         align-items: center;
         gap: 14px;
       }
+      .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand img {
+  height: 1em;          /* 👈 matches text height */
+  width: auto;
+}
+
+.brand .title {
+  font-size: 28px;      /* or whatever your heading size is */
+  font-weight: 600;
+}
+
       .logo {
   width: 24px;
   height: 24px;
@@ -160,7 +176,11 @@
               <img src="./icon.png">
             </div>
             <div>
-              <h1>With You</h1>
+              <div class="brand">
+  <img src="icon.png" alt="With You logo" />
+  <span class="title">With You</span>
+</div>
+
               <div class="pill">Site under development</div>
             </div>
           </div>
