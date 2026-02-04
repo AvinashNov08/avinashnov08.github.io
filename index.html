@@ -1,224 +1,235 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="icon.png" type="image/png" />
-    <link rel="apple-touch-icon" href="https://avinashnov08.github.io/icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>With You</title>
-    <style>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="icon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>With You</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1217;
+      --card: #171b22;
+      --text: #eef2f7;
+      --muted: #a9b3c1;
+      --accent: #6aa9ff;
+      --border: #2a3140;
+    }
+
+    @media (prefers-color-scheme: light) {
       :root {
-        color-scheme: light dark;
-        --bg: #0f1217;
-        --card: #171b22;
-        --text: #eef2f7;
-        --muted: #a9b3c1;
-        --accent: #6aa9ff;
-        --border: #2a3140;
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --text: #1a1f2b;
+        --muted: #5c6b82;
+        --accent: #2b6de9;
+        --border: #e2e7f0;
       }
-      @media (prefers-color-scheme: light) {
-        :root {
-          --bg: #f6f7fb;
-          --card: #ffffff;
-          --text: #1a1f2b;
-          --muted: #5c6b82;
-          --accent: #2b6de9;
-          --border: #e2e7f0;
-        }
-      }
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        font-family: "Segoe UI", Roboto, Arial, sans-serif;
-        background: var(--bg);
-        color: var(--text);
-      }
-      a { color: inherit; text-decoration: none; }
-      .wrap {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-      .container {
-        width: min(1100px, 92vw);
-        margin: 0 auto;
-      }
-      header {
-        border-bottom: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.05);
-      }
-      .header-inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 18px 0;
-      }
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-      }
-      .brand {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+    }
 
-.brand img {
-  height: 1em;          /* 👈 matches text height */
-  width: auto;
-}
+    * { box-sizing: border-box; }
 
-.brand .title {
-  font-size: 28px;      /* or whatever your heading size is */
-  font-weight: 600;
-}
-       .pill {
-        font-size: 12px;
-        padding: 6px 10px;
-        border-radius: 999px;
-        border: 1px solid var(--border);
-        color: var(--muted);
-      }
-      main {
-        flex: 1;
-        padding: 44px 0 60px;
-      }
-      .hero {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 24px;
-        align-items: center;
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        padding: 28px;
-        box-shadow: 0 18px 42px rgba(0, 0, 0, 0.25);
-      }
-      h2 { margin: 0 0 12px; font-size: 30px; }
-      p {
-        margin: 10px 0;
-        color: var(--muted);
-        line-height: 1.7;
-      }
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 16px;
-      }
-      .btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 18px;
-        border-radius: 10px;
-        border: 1px solid var(--border);
-        background: transparent;
-        color: var(--text);
-        font-weight: 600;
-      }
-      .btn.primary {
-        background: var(--accent);
-        color: #ffffff;
-        border-color: transparent;
-      }
-      .section {
-        margin-top: 28px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 18px;
-      }
-      .card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        padding: 18px;
-      }
-      .card h3 { margin: 0 0 8px; font-size: 18px; }
-      footer {
-        border-top: 1px solid var(--border);
-        padding: 18px 0;
-        color: var(--muted);
-        font-size: 13px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
-      <header>
-        <div class="container header-inner">
-          <div class="brand">
-            <div class="logo" aria-hidden="true">
-              <img src="./icon.png">
-            </div>
-            <div>
-              <div class="brand">
-  <img src="icon.png" alt="With You logo" />
-  <span class="title">With You</span>
-</div>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
 
-              <div class="pill">Site under development</div>
+    a { color: inherit; text-decoration: none; }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      width: min(1100px, 92vw);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+    }
+
+    /* ✅ BRAND (ICON + TEXT SAME HEIGHT) */
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 28px; /* controls BOTH text + icon */
+      font-weight: 600;
+    }
+
+    .brand-icon {
+      height: 1em;       /* 🔥 EXACT SAME HEIGHT AS TEXT */
+      width: auto;
+      display: block;
+    }
+
+    .pill {
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      margin-left: 12px;
+      font-weight: 500;
+    }
+
+    main {
+      flex: 1;
+      padding: 44px 0 60px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      align-items: center;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 { margin: 0 0 12px; font-size: 30px; }
+
+    p {
+      margin: 10px 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: transparent;
+    }
+
+    .section {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .card h3 { margin: 0 0 8px; font-size: 18px; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 18px 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="container header-inner">
+
+        <!-- ✅ CLEAN BRAND -->
+        <div class="brand">
+          <img class="brand-icon" src="icon.png" alt="With You logo" />
+          <span>With You</span>
+          <span class="pill">Site under development</span>
+        </div>
+
+        <a class="btn" href="https://avinashnov08.github.io/withyou-privacy-policy/">
+          Privacy Policy
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="hero">
+          <div>
+            <h2>With You • Stay connected with loved ones</h2>
+            <p>
+              This is the official developer site for the With You app. We are actively improving
+              the experience and expanding the documentation.
+            </p>
+            <div class="actions">
+              <a class="btn primary" href="https://avinashnov08.github.io/withyou-privacy-policy/">
+                View Privacy Policy
+              </a>
             </div>
           </div>
-          <a class="btn" href="https://avinashnov08.github.io/withyou-privacy-policy/">Privacy Policy</a>
-        </div>
-      </header>
 
-      <main>
-        <div class="container">
-          <section class="hero">
-            <div>
-              <h2>With You • Stay connected with loved ones</h2>
-              <p>
-                This is the official developer site for the With You app. We are actively improving
-                the experience and expanding the documentation.
-              </p>
-              <div class="actions">
-                <a class="btn primary" href="https://avinashnov08.github.io/withyou-privacy-policy/">
-                  View Privacy Policy
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <h3>About the App</h3>
-              <p>
-                With You is a location tracking app built to help friends and families stay aware of
-                each other’s whereabouts with permission-based sharing and offline history support.
-              </p>
-            </div>
-          </section>
+          <div class="card">
+            <h3>About the App</h3>
+            <p>
+              With You is a location tracking app built to help friends and families stay aware of
+              each other’s whereabouts with permission-based sharing.
+            </p>
+          </div>
+        </section>
 
-          <section class="section">
-            <div class="card">
-              <h3>Transparent Data Use</h3>
-              <p>
-                We share how data is collected and stored, and provide clear controls for users.
-              </p>
-            </div>
-            <div class="card">
-              <h3>Privacy First</h3>
-              <p>
-                Permission-based sharing, optional contacts, and local caching policies are documented
-                in the privacy policy.
-              </p>
-            </div>
-            <div class="card">
-              <h3>Support</h3>
-              <p>
-                For questions, please contact us through the app or email
-                <strong>avinash_nov08@hotmail.com</strong>.
-              </p>
-            </div>
-          </section>
-        </div>
-      </main>
+        <section class="section">
+          <div class="card">
+            <h3>Transparent Data Use</h3>
+            <p>We clearly explain how data is collected and used.</p>
+          </div>
+          <div class="card">
+            <h3>Privacy First</h3>
+            <p>Permission-based sharing with full user control.</p>
+          </div>
+          <div class="card">
+            <h3>Support</h3>
+            <p>
+              Contact us at <strong>avinash_nov08@hotmail.com</strong>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
 
-      <footer>
-        <div class="container">
-          © 2026 With You • All rights reserved
-        </div>
-      </footer>
-    </div>
-  </body>
+    <footer>
+      <div class="container">
+        © 2026 With You • All rights reserved
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
