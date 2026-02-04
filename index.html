@@ -31,62 +31,88 @@
         background: var(--bg);
         color: var(--text);
       }
+      a { color: inherit; text-decoration: none; }
       .wrap {
         min-height: 100vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 40px 16px;
+        flex-direction: column;
       }
-      .card {
-        width: min(860px, 96vw);
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        padding: 28px 28px 24px;
-        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+      .container {
+        width: min(1100px, 92vw);
+        margin: 0 auto;
       }
-      .header {
+      header {
+        border-bottom: 1px solid var(--border);
+        background: rgba(0, 0, 0, 0.05);
+      }
+      .header-inner {
         display: flex;
         align-items: center;
-        gap: 16px;
-        margin-bottom: 12px;
+        justify-content: space-between;
+        padding: 18px 0;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
       }
       .logo {
-        width: 48px;
-        height: 48px;
-        border-radius: 14px;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
         background: linear-gradient(135deg, #6aa9ff, #7b6dff);
         display: grid;
         place-items: center;
-        color: #ffffff;
-        font-weight: 700;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
       }
-      h1 {
+      .logo svg { width: 26px; height: 26px; }
+      .brand h1 {
         margin: 0;
-        font-size: 28px;
+        font-size: 22px;
       }
-      p {
-        margin: 8px 0;
+      .pill {
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
         color: var(--muted);
-        line-height: 1.6;
+      }
+      main {
+        flex: 1;
+        padding: 44px 0 60px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 24px;
+        align-items: center;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 18px 42px rgba(0, 0, 0, 0.25);
+      }
+      h2 { margin: 0 0 12px; font-size: 30px; }
+      p {
+        margin: 10px 0;
+        color: var(--muted);
+        line-height: 1.7;
       }
       .actions {
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
-        margin: 20px 0 12px;
+        margin-top: 16px;
       }
       .btn {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: 10px 16px;
+        padding: 10px 18px;
         border-radius: 10px;
         border: 1px solid var(--border);
-        text-decoration: none;
-        color: var(--text);
         background: transparent;
+        color: var(--text);
         font-weight: 600;
       }
       .btn.primary {
@@ -94,48 +120,105 @@
         color: #ffffff;
         border-color: transparent;
       }
-      .meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
-        font-size: 13px;
-        color: var(--muted);
-        margin-top: 8px;
+      .section {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
       }
-      .meta span {
-        padding: 6px 10px;
-        border-radius: 999px;
+      .card {
+        background: var(--card);
         border: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        padding: 18px;
+      }
+      .card h3 { margin: 0 0 8px; font-size: 18px; }
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 18px 0;
+        color: var(--muted);
+        font-size: 13px;
       }
     </style>
   </head>
   <body>
     <div class="wrap">
-      <main class="card">
-        <div class="header">
-          <div class="logo">WY</div>
-          <div>
-            <h1>With You</h1>
-            <p>Developer site for the With You app.</p>
+      <header>
+        <div class="container header-inner">
+          <div class="brand">
+            <div class="logo" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3c-3.3 0-6 2.6-6 5.9 0 4.4 6 10.1 6 10.1s6-5.7 6-10.1C18 5.6 15.3 3 12 3Z"
+                  stroke="white"
+                  stroke-width="1.6"
+                />
+                <circle cx="12" cy="8.5" r="2.2" fill="white"/>
+              </svg>
+            </div>
+            <div>
+              <h1>With You</h1>
+              <div class="pill">Site under development</div>
+            </div>
           </div>
+          <a class="btn" href="https://avinashnov08.github.io/withyou-privacy-policy/">Privacy Policy</a>
         </div>
-        <p>
-          This site hosts the required <strong>app-ads.txt</strong> file for AdMob verification
-          and links to the privacy policy.
-        </p>
-        <div class="actions">
-          <a class="btn primary" href="/app-ads.txt">Open app-ads.txt</a>
-          <a class="btn" href="https://avinashnov08.github.io/withyou-privacy-policy/">
-            Privacy Policy
-          </a>
-        </div>
-        <div class="meta">
-          <span>AdMob Verified</span>
-          <span>App-ads.txt hosted at root</span>
-          <span>Last updated 2026-02-04</span>
+      </header>
+
+      <main>
+        <div class="container">
+          <section class="hero">
+            <div>
+              <h2>With You • Stay connected with loved ones</h2>
+              <p>
+                This is the official developer site for the With You app. We are actively improving
+                the experience and expanding the documentation.
+              </p>
+              <div class="actions">
+                <a class="btn primary" href="https://avinashnov08.github.io/withyou-privacy-policy/">
+                  View Privacy Policy
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <h3>About the App</h3>
+              <p>
+                With You is a location tracking app built to help friends and families stay aware of
+                each other’s whereabouts with permission-based sharing and offline history support.
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="card">
+              <h3>Transparent Data Use</h3>
+              <p>
+                We share how data is collected and stored, and provide clear controls for users.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Privacy First</h3>
+              <p>
+                Permission-based sharing, optional contacts, and local caching policies are documented
+                in the privacy policy.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Support</h3>
+              <p>
+                For questions, please contact us through the app or email
+                <strong>avinash_nov08@hotmail.com</strong>.
+              </p>
+            </div>
+          </section>
         </div>
       </main>
+
+      <footer>
+        <div class="container">
+          © 2026 With You • All rights reserved
+        </div>
+      </footer>
     </div>
   </body>
 </html>
