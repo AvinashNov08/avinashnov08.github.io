@@ -38,4 +38,9 @@ https://telugu.oneindia.com/rss/feeds/education-jobs-fb.xml
 https://telugu.oneindia.com/rss/feeds/artificial-intelligence-fb.xml 
 https://telugu.oneindia.com/rss/feeds/cinema-fb.xml
 https://telugu.oneindia.com/rss/
-https://telugu.news18.com/commonfeeds/v1/tel/rss/cricket.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/latest.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/videos.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/international.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/andhra-pradesh.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/national.xml
+https://telugu.news18.com/commonfeeds/v1/tel/rss/telangana.xml
