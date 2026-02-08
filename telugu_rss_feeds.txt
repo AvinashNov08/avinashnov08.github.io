@@ -26,3 +26,16 @@ https://namasteandhra.com/feed/
 https://www.andhrajyothy.com/rss/feed.xml
 https://manaaksharam.com/category/news/feed/
 https://telugu.greatandhra.com/feed/
+https://telugu.oneindia.com/rss/feeds/oneindia-telugu-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-news-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-nri-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-jyotishyam-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-health-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-sports-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-entertainment-fb.xml 
+https://telugu.oneindia.com/rss/feeds/telugu-science-technology-fb.xml 
+https://telugu.oneindia.com/rss/feeds/education-jobs-fb.xml 
+https://telugu.oneindia.com/rss/feeds/artificial-intelligence-fb.xml 
+https://telugu.oneindia.com/rss/feeds/cinema-fb.xml
+https://telugu.oneindia.com/rss/
+https://telugu.news18.com/commonfeeds/v1/tel/rss/cricket.xml
