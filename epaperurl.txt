@@ -1,0 +1,9 @@
+Title :Eenadu, Url:epaper.eenadu.net
+Title :Sakshi, Url:epaper.sakshi.com
+Title:AndhraJyothi, Url:epaper.andhrajyothy.com
+Title:Prabhanews, Url:epaper.prabhanews.com
+Title:Ntnews, Url:epaper.ntnews.com
+Title:V6velugu, Url:epaper.v6velugu.com
+Title:Surya, Url:suryaepaper.com
+Title:Dishadaily, Url:epaper.dishadaily.com
+Title:Tolivelugu, Url:tolivelugu.com
