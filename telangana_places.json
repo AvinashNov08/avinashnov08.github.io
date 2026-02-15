@@ -82,5 +82,25 @@
       "en": "All India Majlis-e-Ittehadul Muslimeen",
       "te": "అఖిల భారత మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
     }
-  ]
+  ],
+ "places":[
+    { "en": "Charminar", "te": "చార్మినార్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Golconda Fort", "te": "గోల్కొండ కోట", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Chowmahalla Palace", "te": "చౌమహల్లా ప్యాలెస్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Qutb Shahi Tombs", "te": "కుతుబ్ షాహీ సమాధులు", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Warangal Fort", "te": "వరంగల్ కోట", "location_en": "Warangal", "location_te": "వరంగల్" },
+    { "en": "Bhongir Fort", "te": "భువనగిరి కోట", "location_en": "Bhongir", "location_te": "భువనగిరి" },
+    { "en": "Ramappa Temple", "te": "రామప్ప దేవాలయం", "location_en": "Mulugu", "location_te": "ములుగు" },
+    { "en": "Bhadrachalam Temple", "te": "భద్రాచలం ఆలయం", "location_en": "Bhadrachalam", "location_te": "భద్రాచలం" },
+    { "en": "Yadagirigutta Temple", "te": "యాదాద్రి ఆలయం", "location_en": "Yadadri", "location_te": "యాదాద్రి" },
+    { "en": "Thousand Pillar Temple", "te": "వెయ్యి స్తంభాల ఆలయం", "location_en": "Hanumakonda", "location_te": "హనుమకొండ" },
+    { "en": "Basara Saraswati Temple", "te": "బాసర సరస్వతి ఆలయం", "location_en": "Basara", "location_te": "బాసర" },
+    { "en": "Ananthagiri Hills", "te": "అనంతగిరి కొండలు", "location_en": "Vikarabad", "location_te": "వికారాబాద్" },
+    { "en": "Kuntala Waterfalls", "te": "కుంటాల జలపాతం", "location_en": "Adilabad", "location_te": "ఆదిలాబాద్" },
+    { "en": "Bogatha Waterfalls", "te": "బొగత జలపాతం", "location_en": "Khammam", "location_te": "ఖమ్మం" },
+    { "en": "Nagarjuna Sagar Dam", "te": "నాగార్జున సాగర్ డ్యాం", "location_en": "Nalgonda", "location_te": "నల్గొండ" },
+    { "en": "Ramoji Film City", "te": "రామోజీ ఫిల్మ్ సిటీ", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Taj Falaknuma Palace", "te": "తాజ్ ఫలక్నుమా ప్యాలెస్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
+    { "en": "Medak Cathedral & Fort", "te": "మెదక్ చర్చి మరియు కోట", "location_en": "Medak", "location_te": "మెదక్" }
+ ]
 }
