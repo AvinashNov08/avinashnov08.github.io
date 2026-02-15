@@ -1,6 +1,5 @@
 {
- "strong_keywords": ["telangana","hyderabad","warangal","nizamabad","karimnagar","secunderabad","medak","khammam","adilabad","kcr","ktr","brs","trs","Yadagirigutta","తెలంగాణ","హైదరాబాద్","హైద్రాబాద్","వరంగల్","నిజామాబాద్","కరీంనగర్","సికింద్రాబాద్","మెదక్","ఖమ్మం","ఆదిలాబాద్"],
-  "districts": [
+ "strong_keywords": [{"telangana","hyderabad","warangal","nizamabad","karimnagar","secunderabad","medak","khammam","adilabad","kcr","ktr","brs","trs","తెలంగాణ","హైదరాబాద్","హైద్రాబాద్","వరంగల్","నిజామాబాద్","కరీంనగర్","సికింద్రాబాద్","మెదక్","ఖమ్మం","ఆదిలాబాద్"},
     { "en": "Adilabad", "te": "ఆదిలాబాద్" },
     { "en": "Kumuram Bheem Asifabad", "te": "కుమురం భీం ఆసిఫాబాద్" },
     { "en": "Mancherial", "te": "మంచెరియల్" },
@@ -33,10 +32,7 @@
     { "en": "Mahabubnagar", "te": "మహబూబ్ నగర్" },
     { "en": "Nagarkurnool", "te": "నాగర్ కర్నూల్ జిల్లా" },
     { "en": "Wanaparthy", "te": "వనపర్తి" },
-    { "en": "Jogulamba Gadwal", "te": "జోగులాంబ గద్వాల" }
-  ],
-
-  "mandals": [
+    { "en": "Jogulamba Gadwal", "te": "జోగులాంబ గద్వాల" },
     { "en": "Tamsi", "te": "తాంసి" },
     { "en": "Talamadagu", "te": "తలమడగు" },
     { "en": "Sirikonda", "te": "సిరికొండ" },
@@ -62,10 +58,7 @@
     { "en": "Ameerpet", "te": "అమీర్పేట" },
     { "en": "Secunderabad", "te": "సికింద్రాబాద్" },
     { "en": "Khairtabad", "te": "ఖైరతాబాద్" },
-    { "en": "Shamshabad", "te": "షామ్షాబాద్" }
-  ],
-
-  "political_parties": [
+    { "en": "Shamshabad", "te": "షామ్షాబాద్" },
     { "en": "BRS", "te": "బీఆర్ఎస్" },
     { "en": "TRS", "te": "టీఆర్ఎస్" },
     { "en": "Bharat Rashtra Samithi", "te": "భారత్ రాష్ట్ర సమితి" },
@@ -81,9 +74,7 @@
     {
       "en": "All India Majlis-e-Ittehadul Muslimeen",
       "te": "అఖిల భారత మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
-    }
-  ],
- "places":[
+    },
     { "en": "Charminar", "te": "చార్మినార్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
     { "en": "Golconda Fort", "te": "గోల్కొండ కోట", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
     { "en": "Chowmahalla Palace", "te": "చౌమహల్లా ప్యాలెస్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
