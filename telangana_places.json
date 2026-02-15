@@ -101,7 +101,8 @@
     { "en": "Nagarjuna Sagar Dam", "te": "నాగార్జున సాగర్ డ్యాం", "location_en": "Nalgonda", "location_te": "నల్గొండ" },
     { "en": "Ramoji Film City", "te": "రామోజీ ఫిల్మ్ సిటీ", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
     { "en": "Taj Falaknuma Palace", "te": "తాజ్ ఫలక్నుమా ప్యాలెస్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్" },
-    { "en": "Medak Cathedral & Fort", "te": "మెదక్ చర్చి మరియు కోట", "location_en": "Medak", "location_te": "మెదక్" }
+    { "en": "Medak Cathedral & Fort", "te": "మెదక్ చర్చి మరియు కోట", "location_en": "Medak", "location_te": "మెదక్" },
+    { "en": "Siddulagutta", "te":"సిద్ధులగుట్ట‌","location_en": "Siddulagutta", "location_te": "సిద్ధులగుట్"}, 
   {"name_en": "Charminar", "name_te": "చార్మినార్", "location_en": "Hyderabad", "location_te": "హైదరాబాద్", "description_en": "16th-century mosque and monument; global icon of Hyderabad.", "description_te": "16వ శతాబ్దపు కట్టడం; హైదరాబాద్ నగరానికి ప్రధాన చిహ్నం."},
   {"name_en": "Golconda Fort", "name_te": "గోల్కొండ కోట", "location_en": "Hyderabad", "location_te": "హైదరాబాద్", "description_en": "Majestic citadel known for acoustics and diamond trade history.", "description_te": "శబ్ద తరంగాల వింతలకు మరియు వజ్రాల వ్యాపారానికి ప్రసిద్ధి."},
   {"name_en": "Warangal Fort", "name_te": "వరంగల్ కోట", "location_en": "Warangal", "location_te": "వరంగల్", "description_en": "13th-century Kakatiya capital featuring iconic stone gateways.", "description_te": "కాకతీయుల కాలం నాటి కోట మరియు ప్రసిద్ధ శిలా తోరణాలు."},
