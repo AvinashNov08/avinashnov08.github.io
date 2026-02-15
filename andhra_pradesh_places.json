@@ -92,54 +92,106 @@
       {
         "name_en": "Tirumala Venkateswara Temple",
         "name_te": "తిరుమల వేంకటేశ్వర స్వామి ఆలయం",
+        "location_en": "Tirupati",
+        "location_te": "తిరుపతి",
+        "highlight_en": "World's richest temple, dedicated to Lord Venkateswara.",
+        "highlight_te": "ప్రపంచంలోనే అత్యంత సంపన్నమైన దేవాలయం, కలియుగ దైవం శ్రీ వేంకటేశ్వర స్వామికి అంకితం చేయబడింది."
       },
       {
         "name_en": "Mallikarjuna Jyotirlinga",
         "name_te": "మల్లికార్జున జ్యోతిర్లింగం",
+        "location_en": "Srisailam",
+        "location_te": "శ్రీశైలం",
+        "highlight_en": "One of the 12 Jyotirlingas and 18 Shakti Peethas.",
+        "highlight_te": "ద్వాదశ జ్యోతిర్లింగాలలో ఒకటి మరియు అష్టాదశ శక్తి పీఠాలలో ఒకటి."
       },
       {
         "name_en": "Kanaka Durga Temple",
         "name_te": "కనకదుర్గమ్మ దేవాలయం",
+        "location_en": "Vijayawada",
+        "location_te": "విజయవాడ",
+        "highlight_en": "Situated on Indrakeeladri Hill overlooking the Krishna River.",
+        "highlight_te": "కృష్ణా నది తీరాన ఇంద్రకీలాద్రి పర్వతంపై కొలువై ఉన్న పుణ్యక్షేత్రం."
       },
       {
         "name_en": "Araku Valley",
         "name_te": "అరకు లోయ",
+        "location_en": "Alluri Sitharama Raju District",
+        "location_te": "అల్లూరి సీతారామరాజు జిల్లా",
+        "highlight_en": "Scenic hill station famous for coffee plantations and tribal culture.",
+        "highlight_te": "కాఫీ తోటలకు మరియు గిరిజన సంస్కృతికి ప్రసిద్ధి చెందిన అందమైన హిల్ స్టేషన్."
       },
       {
         "name_en": "Lambasingi",
         "name_te": "లంబసింగి",
+        "location_en": "Chintapalli",
+        "location_te": "చింతపల్లి",
+        "highlight_en": "Known as the 'Kashmir of Andhra Pradesh' for its sub-zero temperatures.",
+        "highlight_te": "శీతాకాలంలో అత్యల్ప ఉష్ణోగ్రతలు నమోదవుతుండటంతో దీనిని 'ఆంధ్రా కాశ్మీర్' అని పిలుస్తారు."
       },
       {
         "name_en": "Horsley Hills",
         "name_te": "హార్సిలీ హిల్స్",
+        "location_en": "Madanapalle",
+        "location_te": "మదనపల్లె",
+        "highlight_en": "A serene summer retreat with lush greenery and cool climate.",
+        "highlight_te": "పచ్చని ప్రకృతి మరియు చల్లని వాతావరణంతో కూడిన ప్రశాంతమైన వేసవి విడిది."
       },
       {
         "name_en": "Gandikota",
         "name_te": "గండికోట",
+        "location_en": "Kadapa",
+        "location_te": "కడప",
+        "highlight_en": "The 'Grand Canyon of India' featuring a massive gorge and fort.",
+        "highlight_te": "పెన్నా నది తీరాన ఏర్పడిన లోతైన లోయతో కూడిన దీనిని 'భారతీయ గ్రాండ్ కాన్యన్' అంటారు."
       },
       {
         "name_en": "Lepakshi Temple",
         "name_te": "లేపాక్షి ఆలయం",
+        "location_en": "Sri Sathya Sai District",
+        "location_te": "శ్రీ సత్యసాయి జిల్లా",
+        "highlight_en": "Famous for the Hanging Pillar and monolithic Nandi statue.",
+        "highlight_te": "వేలాడే స్తంభం మరియు భారీ ఏకశిలా నంది విగ్రహానికి ఈ క్షేత్రం ప్రసిద్ధి."
       },
       {
         "name_en": "Undavalli Caves",
         "name_te": "ఉండవల్లి గుహలు",
+        "location_en": "Guntur",
+        "location_te": "గుంటూరు",
+        "highlight_en": "4th-century rock-cut architecture dedicated to Lord Vishnu.",
+        "highlight_te": "శ్రీ మహావిష్ణువుకు అంకితం చేయబడిన 4వ శతాబ్దపు అద్భుతమైన గుహాలయాలు."
       },
       {
         "name_en": "Belum Caves",
         "name_te": "బెలూం గుహలు",
+        "location_en": "Nandyal",
+        "location_te": "నంద్యాల",
+        "highlight_en": "The second largest cave system in the Indian subcontinent.",
+        "highlight_te": "భారత ఉపఖండంలోనే రెండవ అతిపెద్ద సహజ గుహల వ్యవస్థ."
       },
       {
         "name_en": "Borra Caves",
         "name_te": "బొర్రా గుహలు",
+        "location_en": "Ananthagiri Hills",
+        "location_te": "అనంతగిరి కొండలు",
+        "highlight_en": "Million-year-old stalactite and stalagmite formations.",
+        "highlight_te": "లక్షల ఏళ్ల క్రితం ఏర్పడిన అరుదైన సున్నపురాయి ఆకృతులకు ఈ గుహలు ప్రసిద్ధి."
       },
       {
         "name_en": "Rishikonda Beach",
         "name_te": "ఋషికొండ బీచ్",
+        "location_en": "Visakhapatnam",
+        "location_te": "విశాఖపట్నం",
+        "highlight_en": "Golden sands and a hub for water sports like windsurfing.",
+        "highlight_te": "బంగారు వర్ణపు ఇసుక తిన్నెలు మరియు వాటర్ స్పోర్ట్స్ కు ప్రసిద్ధి చెందిన బీచ్."
       },
       {
         "name_en": "INS Kurusura Submarine Museum",
         "name_te": "ఐ.ఎన్.ఎస్. కురుసుర సబ్‌మెరైన్ మ్యూజియం",
+        "location_en": "Visakhapatnam",
+        "location_te": "విశాఖపట్నం",
+        "highlight_en": "A retired submarine turned into a museum on RK Beach.",
+        "highlight_te": "ఆర్.కే బీచ్ వద్ద మ్యూజియంగా మార్చబడిన భారతీయ నౌకాదళం యొక్క యుద్ధ సబ్‌మెరైన్."
       }
     ]
 }
