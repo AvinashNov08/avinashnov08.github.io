@@ -23,75 +23,56 @@
     "సికింద్రాబాద్",
     "మెదక్",
     "ఖమ్మం",
-    "ఆదిలాబాద్"
-  ],
-
-  "districts": [
-    { "en": "Adilabad", "te": "ఆదిలాబాద్" },
-    { "en": "Kumuram Bheem Asifabad", "te": "కుమురం భీం ఆసిఫాబాద్" },
-    { "en": "Mancherial", "te": "మంచెరియల్" },
-    { "en": "Nirmal", "te": "నిర్మల్" },
-    { "en": "Nizamabad", "te": "నిజామాబాద్" },
-    { "en": "Jagtial", "te": "జగిత్యాల" },
-    { "en": "Peddapalli", "te": "పెద్దపల్లి" },
-    { "en": "Kamareddy", "te": "కామారెడ్డి" },
-    { "en": "Karimnagar", "te": "కరీంనగర్" },
-    { "en": "Warangal", "te": "వరంగల్" },
-    { "en": "Hyderabad", "te": "హైదరాబాద్" }
-  ],
-
-  "mandals": [
-    { "en": "Tamsi", "te": "తాంసి" },
-    { "en": "Utnoor", "te": "ఉట్నూర్" },
-    { "en": "Narnoor", "te": "నార్నూర్" },
-    { "en": "Bhadrachalam", "te": "భద్రాచలం" },
-    { "en": "Kazipet", "te": "కాజీపేట" },
-    { "en": "Ameerpet", "te": "అమీర్పేట" },
-    { "en": "Secunderabad", "te": "సికింద్రాబాద్" },
-    { "en": "Shamshabad", "te": "షామ్షాబాద్" }
-  ],
-
-  "political_parties": [
-    { "en": "BRS", "te": "బీఆర్ఎస్" },
-    { "en": "TRS", "te": "టీఆర్ఎస్" },
-    { "en": "Bharat Rashtra Samithi", "te": "భారత్ రాష్ట్ర సమితి" },
-    { "en": "Telangana Rashtra Samithi", "te": "తెలంగాణ రాష్ట్ర సమితి" },
-    { "en": "AIMIM", "te": "ఏఐఎంఐఎం" },
-    { "en": "MIM", "te": "ఎమ్మైఎం" }
-  ],
-
-  "tourism_places": [
-    {
-      "name_en": "Charminar",
-      "name_te": "చార్మినార్",
-      "location_en": "Hyderabad",
-      "location_te": "హైదరాబాద్",
-      "description_en": "16th-century mosque and monument.",
-      "description_te": "16వ శతాబ్దపు కట్టడం."
-    },
-    {
-      "name_en": "Golconda Fort",
-      "name_te": "గోల్కొండ కోట",
-      "location_en": "Hyderabad",
-      "location_te": "హైదరాబాద్",
-      "description_en": "Historic citadel.",
-      "description_te": "చారిత్రక కోట."
-    },
-    {
-      "name_en": "Ramappa Temple",
-      "name_te": "రామప్ప దేవాలయం",
-      "location_en": "Mulugu",
-      "location_te": "ములుగు",
-      "description_en": "UNESCO heritage site.",
-      "description_te": "యునెస్కో వారసత్వ స్థలం."
-    },
-    {
-      "name_en": "Nagarjuna Sagar Dam",
-      "name_te": "నాగార్జున సాగర్ ఆనకట్ట",
-      "location_en": "Nalgonda",
-      "location_te": "నల్గొండ",
-      "description_en": "Large masonry dam.",
-      "description_te": "భారీ ఆనకట్ట."
-    }
+    "ఆదిలాబాద్",
+    "kumuram bheem asifabad",
+    "mancherial",
+    "nirmal",
+    "jagtial",
+    "peddapalli",
+    "kamareddy",
+    "tamsi",
+    "utnoor",
+    "narnoor",
+    "bhadrachalam",
+    "kazipet",
+    "ameerpet",
+    "shamshabad",
+    "కుమురం భీం ఆసిఫాబాద్",
+    "మంచెరియల్",
+    "నిర్మల్",
+    "జగిత్యాల",
+    "పెద్దపల్లి",
+    "కామారెడ్డి",
+    "తాంసి",
+    "ఉట్నూర్",
+    "నార్నూర్",
+    "భద్రాచలం",
+    "కాజీపేట",
+    "అమీర్పేట",
+    "షామ్షాబాద్",
+    "bharat rastra samithi",
+    "telangana rastra samithi",
+    "aimim",
+    "mim",
+    "బీఆర్ఎస్",
+    "టీఆర్ఎస్",
+    "భారత్ రాష్ట్ర సమితి",
+    "తెలంగాణ రాష్ట్ర సమితి",
+    "ఏఐఎంఐఎం",
+    "ఎమ్మైఎం",
+    "charminar",
+    "golconda fort",
+    "ramappa temple",
+    "nagarjuna sagar",
+    "చార్మినార్",
+    "గోల్కొండ కోట",
+    "రామప్ప దేవాలయం",
+    "నాగార్జున సాగర్ ఆనకట్ట",
+    "hyderabad",
+    "mulugu",
+    "nalgonda",
+    "హనుమకొండ",
+    "ములుగు",
+    "నల్గొండ"
   ]
 }
