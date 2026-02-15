@@ -87,5 +87,58 @@
     {"en": "Jana Sena Party", "te": "జనసేన పార్టీ"},
     {"en": "Lok Satta", "te": "లోక్ సత్తా"},
     {"en": "Lok Satta Party", "te": "లోక్ సత్తా పార్టీ"}
-  ]
+  ],
+    "places": [
+      {
+        "name_en": "Tirumala Venkateswara Temple",
+        "name_te": "తిరుమల వేంకటేశ్వర స్వామి ఆలయం",
+      },
+      {
+        "name_en": "Mallikarjuna Jyotirlinga",
+        "name_te": "మల్లికార్జున జ్యోతిర్లింగం",
+      },
+      {
+        "name_en": "Kanaka Durga Temple",
+        "name_te": "కనకదుర్గమ్మ దేవాలయం",
+      },
+      {
+        "name_en": "Araku Valley",
+        "name_te": "అరకు లోయ",
+      },
+      {
+        "name_en": "Lambasingi",
+        "name_te": "లంబసింగి",
+      },
+      {
+        "name_en": "Horsley Hills",
+        "name_te": "హార్సిలీ హిల్స్",
+      },
+      {
+        "name_en": "Gandikota",
+        "name_te": "గండికోట",
+      },
+      {
+        "name_en": "Lepakshi Temple",
+        "name_te": "లేపాక్షి ఆలయం",
+      },
+      {
+        "name_en": "Undavalli Caves",
+        "name_te": "ఉండవల్లి గుహలు",
+      },
+      {
+        "name_en": "Belum Caves",
+        "name_te": "బెలూం గుహలు",
+      },
+      {
+        "name_en": "Borra Caves",
+        "name_te": "బొర్రా గుహలు",
+      },
+      {
+        "name_en": "Rishikonda Beach",
+        "name_te": "ఋషికొండ బీచ్",
+      },
+      {
+        "name_en": "INS Kurusura Submarine Museum",
+        "name_te": "ఐ.ఎన్.ఎస్. కురుసుర సబ్‌మెరైన్ మ్యూజియం",
+      }
 }
