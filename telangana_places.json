@@ -1,617 +1,111 @@
 {
-    "strong_keywords":  [
-                            "telangana",
-                            "hyderabad",
-                            "warangal",
-                            "nizamabad",
-                            "karimnagar",
-                            "secunderabad",
-                            "medak",
-                            "khammam",
-                            "adilabad",
-                            "kcr",
-                            "ktr",
-                            "brs",
-                            "trs",
-                            "తెలంగాణ",
-                            "హైదరాబాద్",
-                            "హైద్రాబాద్",
-                            "వరంగల్",
-                            "నిజామాబాద్",
-                            "కరీంనగర్",
-                            "సికింద్రాబాద్",
-                            "మెదక్",
-                            "ఖమ్మం",
-                            "ఆదిలాబాద్"
-                        ],
-    "districts":  [
-                      {
-                          "en":  "Adilabad",
-                          "te":  "ఆదిలాబాద్"
-                      },
-                      {
-                          "en":  "Kumuram Bheem Asifabad",
-                          "te":  "కుమురం భీం ఆసిఫాబాద్"
-                      },
-                      {
-                          "en":  "Mancherial",
-                          "te":  "మంచెరియల్"
-                      },
-                      {
-                          "en":  "Nirmal",
-                          "te":  "నిర్మల్"
-                      },
-                      {
-                          "en":  "Nizamabad",
-                          "te":  "నిజామాబాద్"
-                      },
-                      {
-                          "en":  "Jagtial",
-                          "te":  "జగిత్యాల"
-                      },
-                      {
-                          "en":  "Peddapalli",
-                          "te":  "పెద్దపల్లి"
-                      },
-                      {
-                          "en":  "Kamareddy",
-                          "te":  "కామారెడ్డి"
-                      },
-                      {
-                          "en":  "Rajanna Sircilla",
-                          "te":  "రాజన్న సిరిసిల్ల జిల్లా"
-                      },
-                      {
-                          "en":  "Karimnagar",
-                          "te":  "కరీంనగర్"
-                      },
-                      {
-                          "en":  "Jayashankar Bhupalpally",
-                          "te":  "జయశంకర్ భూపాలపల్లి"
-                      },
-                      {
-                          "en":  "Sangareddy",
-                          "te":  "సంగారెడ్డి"
-                      },
-                      {
-                          "en":  "Medak",
-                          "te":  "మెదక్"
-                      },
-                      {
-                          "en":  "Siddipet",
-                          "te":  "సిద్దిపేట"
-                      },
-                      {
-                          "en":  "Jangaon",
-                          "te":  "జంగావ్"
-                      },
-                      {
-                          "en":  "Hanumakonda",
-                          "te":  "హనుమకొండ"
-                      },
-                      {
-                          "en":  "Warangal",
-                          "te":  "వరంగల్"
-                      },
-                      {
-                          "en":  "Mulugu",
-                          "te":  "ములుగు జిల్లా"
-                      },
-                      {
-                          "en":  "Bhadradri Kothagudem",
-                          "te":  "భద్రాద్రి కొత్తగూడెం"
-                      },
-                      {
-                          "en":  "Khammam",
-                          "te":  "ఖమ్మం"
-                      },
-                      {
-                          "en":  "Mahabubabad",
-                          "te":  "మహబూబాబాద్"
-                      },
-                      {
-                          "en":  "Suryapet",
-                          "te":  "సూర్యాపేట"
-                      },
-                      {
-                          "en":  "Nalgonda",
-                          "te":  "నల్గొండ"
-                      },
-                      {
-                          "en":  "Yadadri Bhuvanagiri",
-                          "te":  "యాదాద్రి భువనగిరి"
-                      },
-                      {
-                          "en":  "Medchal-Malkajgiri",
-                          "te":  "మేడ్చల్ మల్కాజిగిరి"
-                      },
-                      {
-                          "en":  "Hyderabad",
-                          "te":  "హైదరాబాద్"
-                      },
-                      {
-                          "en":  "Ranga Reddy",
-                          "te":  "రంగారెడ్డి జిల్లా"
-                      },
-                      {
-                          "en":  "Vikarabad",
-                          "te":  "వికారాబాద్"
-                      },
-                      {
-                          "en":  "Narayanpet",
-                          "te":  "నారాయణ పేట"
-                      },
-                      {
-                          "en":  "Mahabubnagar",
-                          "te":  "మహబూబ్ నగర్"
-                      },
-                      {
-                          "en":  "Nagarkurnool",
-                          "te":  "నాగర్ కర్నూల్ జిల్లా"
-                      },
-                      {
-                          "en":  "Wanaparthy",
-                          "te":  "వనపర్తి"
-                      },
-                      {
-                          "en":  "Jogulamba Gadwal",
-                          "te":  "జోగులాంబ గద్వాల"
-                      }
-                  ],
-    "mandals":  [
-                    {
-                        "en":  "Tamsi",
-                        "te":  "తాంసి"
-                    },
-                    {
-                        "en":  "Talamadagu",
-                        "te":  "తలమడగు"
-                    },
-                    {
-                        "en":  "Sirikonda",
-                        "te":  "సిరికొండ"
-                    },
-                    {
-                        "en":  "Neradigonda",
-                        "te":  "నేరాడిగొండ"
-                    },
-                    {
-                        "en":  "Mavala",
-                        "te":  "మావల"
-                    },
-                    {
-                        "en":  "Jainad",
-                        "te":  "జైనాద్"
-                    },
-                    {
-                        "en":  "Ichoda",
-                        "te":  "ఇచోడా"
-                    },
-                    {
-                        "en":  "Gudihathnur",
-                        "te":  "గూడిహత్నూర్"
-                    },
-                    {
-                        "en":  "Bheempoor",
-                        "te":  "భీంపూర్"
-                    },
-                    {
-                        "en":  "Boath",
-                        "te":  "బోథ్"
-                    },
-                    {
-                        "en":  "Bela",
-                        "te":  "బెలా"
-                    },
-                    {
-                        "en":  "Bazarhatnoor",
-                        "te":  "బజార్హత్నూర్"
-                    },
-                    {
-                        "en":  "Adilabad Urban",
-                        "te":  "ఆదిలాబాద్ పట్టణం"
-                    },
-                    {
-                        "en":  "Adilabad Rural",
-                        "te":  "ఆదిలాబాద్ గ్రామీణం"
-                    },
-                    {
-                        "en":  "Utnoor",
-                        "te":  "ఉట్నూర్"
-                    },
-                    {
-                        "en":  "Narnoor",
-                        "te":  "నార్నూర్"
-                    },
-                    {
-                        "en":  "Inderavelly",
-                        "te":  "ఇంద్రవెల్లి"
-                    },
-                    {
-                        "en":  "Gadiguda",
-                        "te":  "గాడిగూడ"
-                    },
-                    {
-                        "en":  "Yellandu",
-                        "te":  "యెల్లండు"
-                    },
-                    {
-                        "en":  "Tekulapalle",
-                        "te":  "తేకులపల్లి"
-                    },
-                    {
-                        "en":  "Sujathanagar",
-                        "te":  "సుజాతనగర్"
-                    },
-                    {
-                        "en":  "Palvancha",
-                        "te":  "పాల్వంచ"
-                    },
-                    {
-                        "en":  "Mulakalapalle",
-                        "te":  "ములకలపల్లి"
-                    },
-                    {
-                        "en":  "Laxmidevipalli",
-                        "te":  "లక్ష్మీదేవిపల్లి"
-                    },
-                    {
-                        "en":  "Kothagudem",
-                        "te":  "కోతగూడెం"
-                    },
-                    {
-                        "en":  "Julurpad",
-                        "te":  "జూలూర్పాడ్"
-                    },
-                    {
-                        "en":  "Gundala",
-                        "te":  "గుండాల"
-                    },
-                    {
-                        "en":  "Dammapeta",
-                        "te":  "దమ్మపేట"
-                    },
-                    {
-                        "en":  "Chunchupally",
-                        "te":  "చున్చుపల్లి"
-                    },
-                    {
-                        "en":  "Chandrugonda",
-                        "te":  "చంద్రుగూడ"
-                    },
-                    {
-                        "en":  "Aswaraopeta",
-                        "te":  "అస్వారావోపేట"
-                    },
-                    {
-                        "en":  "Annapureddypally",
-                        "te":  "అన్నాపురెడ్డిపల్లి"
-                    },
-                    {
-                        "en":  "Allapalli",
-                        "te":  "అల్లాపల్లి"
-                    },
-                    {
-                        "en":  "Pinapaka",
-                        "te":  "పినపాక"
-                    },
-                    {
-                        "en":  "Manuguru",
-                        "te":  "మానుగూరు"
-                    },
-                    {
-                        "en":  "Karakagudem",
-                        "te":  "కరకగూడెం"
-                    },
-                    {
-                        "en":  "Dummugudem",
-                        "te":  "దుమ్ముగూడెం"
-                    },
-                    {
-                        "en":  "Burgampahad",
-                        "te":  "బుర్గంపహాద్"
-                    },
-                    {
-                        "en":  "Cherla",
-                        "te":  "చేర్ల"
-                    },
-                    {
-                        "en":  "Bhadrachalam",
-                        "te":  "భద్రాచలం"
-                    },
-                    {
-                        "en":  "Aswapuram",
-                        "te":  "అస్వాపురం"
-                    },
-                    {
-                        "en":  "Velair",
-                        "te":  "వెలైర్"
-                    },
-                    {
-                        "en":  "Kazipet",
-                        "te":  "కాజీపేట"
-                    },
-                    {
-                        "en":  "Kamalapur",
-                        "te":  "కమలాపూర్"
-                    },
-                    {
-                        "en":  "Inavole",
-                        "te":  "ఇనవోలె"
-                    },
-                    {
-                        "en":  "Hasanparthy",
-                        "te":  "హసన్పర్తి"
-                    },
-                    {
-                        "en":  "Hanamkonda",
-                        "te":  "హనమకొండ"
-                    },
-                    {
-                        "en":  "Elkathurthy",
-                        "te":  "ఎల్కతూర్తి"
-                    },
-                    {
-                        "en":  "Dharmasagar",
-                        "te":  "ధర్మసాగర్"
-                    },
-                    {
-                        "en":  "Bheemadevarapalle",
-                        "te":  "భీమదేవరాపల్లి"
-                    },
-                    {
-                        "en":  "Shayampet",
-                        "te":  "శయంపేట"
-                    },
-                    {
-                        "en":  "Parkal",
-                        "te":  "పార్కల్"
-                    },
-                    {
-                        "en":  "Saidabad",
-                        "te":  "సైదాబాద్"
-                    },
-                    {
-                        "en":  "Nampally",
-                        "te":  "నంపల్లి"
-                    },
-                    {
-                        "en":  "Himayathnagar",
-                        "te":  "హిమాయత్ నగర్"
-                    },
-                    {
-                        "en":  "Golkonda",
-                        "te":  "గోల్కొండ"
-                    },
-                    {
-                        "en":  "Charminar",
-                        "te":  "చార్మినార్"
-                    },
-                    {
-                        "en":  "Bandlaguda",
-                        "te":  "బండ్లగూడ"
-                    },
-                    {
-                        "en":  "Bahadurpura",
-                        "te":  "బహదూర్ పురా"
-                    },
-                    {
-                        "en":  "Asif Nagar",
-                        "te":  "ఆసిఫ్ నగర్"
-                    },
-                    {
-                        "en":  "Amberpet",
-                        "te":  "అంబర్పేట"
-                    },
-                    {
-                        "en":  "Tirumalgiri",
-                        "te":  "తిరుమల్గిరి"
-                    },
-                    {
-                        "en":  "Shaikpet",
-                        "te":  "షైక్ పేట"
-                    },
-                    {
-                        "en":  "Secunderabad",
-                        "te":  "సికింద్రాబాద్"
-                    },
-                    {
-                        "en":  "Musheerabad",
-                        "te":  "ముషీరాబాద్"
-                    },
-                    {
-                        "en":  "Maredpally",
-                        "te":  "మారెడ్పల్లి"
-                    },
-                    {
-                        "en":  "Khairtabad",
-                        "te":  "ఖైరతాబాద్"
-                    },
-                    {
-                        "en":  "Ameerpet",
-                        "te":  "అమీర్పేట"
-                    },
-                    {
-                        "en":  "Velgatoor",
-                        "te":  "వెల్గటూర్"
-                    },
-                    {
-                        "en":  "Sarangapur",
-                        "te":  "సారంగాపూర్"
-                    },
-                    {
-                        "en":  "Raikal",
-                        "te":  "రాయ్ కల్"
-                    },
-                    {
-                        "en":  "Jagtial",
-                        "te":  "జగిత్యాల"
-                    },
-                    {
-                        "en":  "Karimnagar",
-                        "te":  "కరీంనగర్"
-                    },
-                    {
-                        "en":  "Medak",
-                        "te":  "మెదక్"
-                    },
-                    {
-                        "en":  "Siddipet",
-                        "te":  "సిద్దిపేట"
-                    },
-                    {
-                        "en":  "Jangaon",
-                        "te":  "జంగావ్"
-                    },
-                    {
-                        "en":  "Warangal",
-                        "te":  "వరంగల్"
-                    },
-                    {
-                        "en":  "Nizamabad",
-                        "te":  "నిజామాబాద్"
-                    },
-                    {
-                        "en":  "Nirmal",
-                        "te":  "నిర్మల్"
-                    },
-                    {
-                        "en":  "Kamareddy",
-                        "te":  "కామారెడ్డి"
-                    },
-                    {
-                        "en":  "Peddapalli",
-                        "te":  "పెద్దపల్లి"
-                    },
-                    {
-                        "en":  "Sircilla",
-                        "te":  "సిరిసిల్ల"
-                    },
-                    {
-                        "en":  "Sangareddy",
-                        "te":  "సంగారెడ్డి"
-                    },
-                    {
-                        "en":  "Suryapet",
-                        "te":  "సూర్యాపేట"
-                    },
-                    {
-                        "en":  "Nalgonda",
-                        "te":  "నల్గొండ"
-                    },
-                    {
-                        "en":  "Vikarabad",
-                        "te":  "వికారాబాద్"
-                    },
-                    {
-                        "en":  "Wanaparthy",
-                        "te":  "వనపర్తి"
-                    },
-                    {
-                        "en":  "Mahabubabad",
-                        "te":  "మహబూబాబాద్"
-                    },
-                    {
-                        "en":  "Mahabubnagar",
-                        "te":  "మహబూబ్ నగర్"
-                    },
-                    {
-                        "en":  "Mancherial",
-                        "te":  "మంచెరియల్"
-                    },
-                    {
-                        "en":  "Nagarkurnool",
-                        "te":  "నాగర్ కర్నూల్"
-                    },
-                    {
-                        "en":  "Narayanpet",
-                        "te":  "నారాయణ పేట"
-                    },
-                    {
-                        "en":  "Mulugu",
-                        "te":  "ములుగు"
-                    },
-                    {
-                        "en":  "Medchal",
-                        "te":  "మేడ్చల్"
-                    },
-                    {
-                        "en":  "Malkajgiri",
-                        "te":  "మల్కాజిగిరి"
-                    },
-                    {
-                        "en":  "Ranga Reddy",
-                        "te":  "రంగారెడ్డి"
-                    },
-                    {
-                        "en":  "Khammam",
-                        "te":  "ఖమ్మం"
-                    },
-                    {
-                        "en":  "Hyderabad",
-                        "te":  "హైదరాబాద్"
-                    },
-                    {
-                        "en":  "Bhongir",
-                        "te":  "భోంగీర్"
-                    },
-                    {
-                        "en":  "Shamirpet",
-                        "te":  "షామీర్పేట"
-                    },
-                    {
-                        "en":  "Ghatkesar",
-                        "te":  "ఘాట్కేసర్"
-                    },
-                    {
-                        "en":  "Chevella",
-                        "te":  "చెవెల్ల"
-                    },
-                    {
-                        "en":  "Shamshabad",
-                        "te":  "షామ్షాబాద్"
-                    }
-                ],
-    "political_parties":  [
-                              {
-                                  "en":  "BRS",
-                                  "te":  "బీఆర్ఎస్"
-                              },
-                              {
-                                  "en":  "TRS",
-                                  "te":  "టీఆర్ఎస్"
-                              },
-                              {
-                                  "en":  "Bharat Rashtra Samithi",
-                                  "te":  "భారత్ రాష్ట్ర సమితి"
-                              },
-                              {
-                                  "en":  "Telangana Rashtra Samithi",
-                                  "te":  "తెలంగాణ రాష్ట్ర సమితి"
-                              },
-                              {
-                                  "en":  "TJS",
-                                  "te":  "టీజెఎస్"
-                              },
-                              {
-                                  "en":  "Telangana Jana Samithi",
-                                  "te":  "తెలంగాణ జన సమితి"
-                              },
-                              {
-                                  "en":  "AIMIM",
-                                  "te":  "ఏఐఎంఐఎంఎం"
-                              },
-                              {
-                                  "en":  "MIM",
-                                  "te":  "ఎమ్మైఎం"
-                              },
-                              {
-                                  "en":  "Majlis-e-Ittehadul Muslimeen",
-                                  "te":  "మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
-                              },
-                              {
-                                  "en":  "All India Majlis-e-Ittehadul Muslimeen",
-                                  "te":  "అఖిల భారత మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
-                              }
-                          ]
+  "strong_keywords": [
+    "telangana",
+    "hyderabad",
+    "warangal",
+    "nizamabad",
+    "karimnagar",
+    "secunderabad",
+    "medak",
+    "khammam",
+    "adilabad",
+    "kcr",
+    "ktr",
+    "brs",
+    "trs",
+    "తెలంగాణ",
+    "హైదరాబాద్",
+    "హైద్రాబాద్",
+    "వరంగల్",
+    "నిజామాబాద్",
+    "కరీంనగర్",
+    "సికింద్రాబాద్",
+    "మెదక్",
+    "ఖమ్మం",
+    "ఆదిలాబాద్"
+  ],
+
+  "districts": [
+    { "en": "Adilabad", "te": "ఆదిలాబాద్" },
+    { "en": "Kumuram Bheem Asifabad", "te": "కుమురం భీం ఆసిఫాబాద్" },
+    { "en": "Mancherial", "te": "మంచెరియల్" },
+    { "en": "Nirmal", "te": "నిర్మల్" },
+    { "en": "Nizamabad", "te": "నిజామాబాద్" },
+    { "en": "Jagtial", "te": "జగిత్యాల" },
+    { "en": "Peddapalli", "te": "పెద్దపల్లి" },
+    { "en": "Kamareddy", "te": "కామారెడ్డి" },
+    { "en": "Rajanna Sircilla", "te": "రాజన్న సిరిసిల్ల జిల్లా" },
+    { "en": "Karimnagar", "te": "కరీంనగర్" },
+    { "en": "Jayashankar Bhupalpally", "te": "జయశంకర్ భూపాలపల్లి" },
+    { "en": "Sangareddy", "te": "సంగారెడ్డి" },
+    { "en": "Medak", "te": "మెదక్" },
+    { "en": "Siddipet", "te": "సిద్దిపేట" },
+    { "en": "Jangaon", "te": "జంగావ్" },
+    { "en": "Hanumakonda", "te": "హనుమకొండ" },
+    { "en": "Warangal", "te": "వరంగల్" },
+    { "en": "Mulugu", "te": "ములుగు జిల్లా" },
+    { "en": "Bhadradri Kothagudem", "te": "భద్రాద్రి కొత్తగూడెం" },
+    { "en": "Khammam", "te": "ఖమ్మం" },
+    { "en": "Mahabubabad", "te": "మహబూబాబాద్" },
+    { "en": "Suryapet", "te": "సూర్యాపేట" },
+    { "en": "Nalgonda", "te": "నల్గొండ" },
+    { "en": "Yadadri Bhuvanagiri", "te": "యాదాద్రి భువనగిరి" },
+    { "en": "Medchal-Malkajgiri", "te": "మేడ్చల్ మల్కాజిగిరి" },
+    { "en": "Hyderabad", "te": "హైదరాబాద్" },
+    { "en": "Ranga Reddy", "te": "రంగారెడ్డి జిల్లా" },
+    { "en": "Vikarabad", "te": "వికారాబాద్" },
+    { "en": "Narayanpet", "te": "నారాయణ పేట" },
+    { "en": "Mahabubnagar", "te": "మహబూబ్ నగర్" },
+    { "en": "Nagarkurnool", "te": "నాగర్ కర్నూల్ జిల్లా" },
+    { "en": "Wanaparthy", "te": "వనపర్తి" },
+    { "en": "Jogulamba Gadwal", "te": "జోగులాంబ గద్వాల" }
+  ],
+
+  "mandals": [
+    { "en": "Tamsi", "te": "తాంసి" },
+    { "en": "Talamadagu", "te": "తలమడగు" },
+    { "en": "Sirikonda", "te": "సిరికొండ" },
+    { "en": "Neradigonda", "te": "నేరాడిగొండ" },
+    { "en": "Mavala", "te": "మావల" },
+    { "en": "Jainad", "te": "జైనాద్" },
+    { "en": "Ichoda", "te": "ఇచోడా" },
+    { "en": "Gudihathnur", "te": "గూడిహత్నూర్" },
+    { "en": "Bheempoor", "te": "భీంపూర్" },
+    { "en": "Boath", "te": "బోథ్" },
+    { "en": "Bela", "te": "బెలా" },
+    { "en": "Adilabad Urban", "te": "ఆదిలాబాద్ పట్టణం" },
+    { "en": "Adilabad Rural", "te": "ఆదిలాబాద్ గ్రామీణం" },
+    { "en": "Utnoor", "te": "ఉట్నూర్" },
+    { "en": "Narnoor", "te": "నార్నూర్" },
+    { "en": "Inderavelly", "te": "ఇంద్రవెల్లి" },
+    { "en": "Gadiguda", "te": "గాడిగూడ" },
+    { "en": "Yellandu", "te": "యెల్లండు" },
+    { "en": "Kothagudem", "te": "కోతగూడెం" },
+    { "en": "Bhadrachalam", "te": "భద్రాచలం" },
+    { "en": "Kazipet", "te": "కాజీపేట" },
+    { "en": "Parkal", "te": "పార్కల్" },
+    { "en": "Ameerpet", "te": "అమీర్పేట" },
+    { "en": "Secunderabad", "te": "సికింద్రాబాద్" },
+    { "en": "Khairtabad", "te": "ఖైరతాబాద్" },
+    { "en": "Shamshabad", "te": "షామ్షాబాద్" }
+  ],
+
+  "political_parties": [
+    { "en": "BRS", "te": "బీఆర్ఎస్" },
+    { "en": "TRS", "te": "టీఆర్ఎస్" },
+    { "en": "Bharat Rashtra Samithi", "te": "భారత్ రాష్ట్ర సమితి" },
+    { "en": "Telangana Rashtra Samithi", "te": "తెలంగాణ రాష్ట్ర సమితి" },
+    { "en": "TJS", "te": "టీజెఎస్" },
+    { "en": "Telangana Jana Samithi", "te": "తెలంగాణ జన సమితి" },
+    { "en": "AIMIM", "te": "ఏఐఎంఐఎం" },
+    { "en": "MIM", "te": "ఎమ్మైఎం" },
+    {
+      "en": "Majlis-e-Ittehadul Muslimeen",
+      "te": "మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
+    },
+    {
+      "en": "All India Majlis-e-Ittehadul Muslimeen",
+      "te": "అఖిల భారత మజ్లిస్ ఎ ఇత్తేహాదుల్ ముస్లిమీన్"
+    }
+  ]
 }
