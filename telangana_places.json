@@ -1,30 +1,5 @@
 {
-  "strong_keywords": [
-    "telangana",
-    "hyderabad",
-    "warangal",
-    "nizamabad",
-    "karimnagar",
-    "secunderabad",
-    "medak",
-    "khammam",
-    "adilabad",
-    "kcr",
-    "ktr",
-    "brs",
-    "trs",
-    "తెలంగాణ",
-    "హైదరాబాద్",
-    "హైద్రాబాద్",
-    "వరంగల్",
-    "నిజామాబాద్",
-    "కరీంనగర్",
-    "సికింద్రాబాద్",
-    "మెదక్",
-    "ఖమ్మం",
-    "ఆదిలాబాద్"
-  ],
-
+ "strong_keywords": ["telangana","hyderabad","warangal","nizamabad","karimnagar","secunderabad","medak","khammam","adilabad","kcr","ktr","brs","trs","తెలంగాణ","హైదరాబాద్","హైద్రాబాద్","వరంగల్","నిజామాబాద్","కరీంనగర్","సికింద్రాబాద్","మెదక్","ఖమ్మం","ఆదిలాబాద్"],
   "districts": [
     { "en": "Adilabad", "te": "ఆదిలాబాద్" },
     { "en": "Kumuram Bheem Asifabad", "te": "కుమురం భీం ఆసిఫాబాద్" },
