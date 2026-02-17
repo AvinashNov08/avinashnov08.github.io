@@ -1,0 +1,10 @@
+Eenadu|ఈనాడు|https://avinashnov08.github.io/logos/eenadu.png|https://epaper.eenadu.net
+Sakshi|సాక్షి|https://avinashnov08.github.io/logos/sakshi.png|https://epaper.sakshi.com
+Andhra Jyothi|ఆంధ్రజ్యోతి|https://avinashnov08.github.io/logos/andhrajyothy.png|https://epaper.andhrajyothy.com
+Andhra Prabha|ఆంధ్రప్రభ|https://avinashnov08.github.io/logos/andhraprabha.png|https://epaper.prabhanews.com
+Namasthe Telangana|నమస్తే తెలంగాణ|https://avinashnov08.github.io/logos/nt.png|https://epaper.ntnews.com
+V6 Velugu|వీ6 వెలుగు|https://avinashnov08.github.io/logos/v6.png|https://epaper.v6velugu.com
+Suryaa|సూర్య|https://avinashnov08.github.io/logos/suryaa.png|https://suryaepaper.com
+Prajasakti|ప్రజాశక్తి|https://avinashnov08.github.io/logos/prajasakti.png|https://epaper.prajasakti.com
+Navatelangana|నవతెలంగాణ|https://avinashnov08.github.io/logos/navatelangana.png|https://epaper.navatelangana.com
+Disha Daily|దిశ డైలీ|https://avinashnov08.github.io/logos/disha.png|https://epaper.dishadaily.com
